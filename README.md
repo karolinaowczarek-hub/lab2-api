@@ -1,11 +1,6 @@
 # Lab2 Repo
 
-Repozytorium zawiera cztery programy:
-
-1. `program1.py` – Pobiera dane z API i wypisuje odpowiedź.
-2. `program2.py` – Zapisuje odpowiedź z API do pliku.
-3. `program3.py` – Serwer Flask z prostym endpointem `/hello`.
-4. `app.py` – Serwer Flask z logiką decyzyjną przyjmującą wiek i dochód.
+Repozytorium zawiera program `app.py` – Serwer Flask z logiką decyzyjną przyjmującą wiek i dochód.
 
 ## Uruchamianie
 
