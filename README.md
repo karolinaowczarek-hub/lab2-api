@@ -3,15 +3,16 @@
 Repozytorium zawiera program `app.py` – Serwer Flask. Serwer ten zawiera endpoint POST /classify z logiką decyzyjną przyjmującą wiek i dochód w formacie json. Następnie endpoint zwraca decyzję "Approved" lub "Rejected".
 
 ## Uruchamianie
+Wymagany jest zainstalowany Docker.
 
-1. Zainstaluj wymagania:
+1. Zbuduj obraz
 ```
-pip install -r requirements.txt
+docker build -t flask-app .
 ```
 
-2. Uruchom aplikację:
+2. Uruchom kontener:
 ```
-python app.py
+docker run -p 5000:5000 flask-app
 ```
 
 ## Przykładowe zapytanie POST do app.py:
