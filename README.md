@@ -1,6 +1,6 @@
 # Lab2 Repo
 
-Repozytorium zawiera program `app.py` – Serwer Flask z logiką decyzyjną przyjmującą wiek i dochód.
+Repozytorium zawiera program `app.py` – Serwer Flask. Serwer ten zawiera endpoint POST /classify z logiką decyzyjną przyjmującą wiek i dochód w formacie json. Następnie endpoint zwraca decyzję "Approved" lub "Rejected".
 
 ## Uruchamianie
 

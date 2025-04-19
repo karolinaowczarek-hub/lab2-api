@@ -11,7 +11,7 @@ def classify():
     if age is None or income is None:
         return jsonify({"error": "Missing age or income"}), 400
 
-    # Prosta reguła decyzyjna
+
     if age >= 18 and income >= 3000:
         decision = "Approved"
     else:
